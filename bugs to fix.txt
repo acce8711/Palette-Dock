@@ -1,0 +1,38 @@
+add page
+
+auto generate laoding spinner does not smoothly go back to its orginal position
+text input field changes colour on hover
+plus should be centered
+
+just say "share your colour palette with others"
+
+say "clear" instead of delete
+delete button exapnds content onhover. i don't like that
+
+colour modal shpould probably have a button
+
+when user adds palette
+-improve text
+-equal padding between ettx and palette
+-close button
+
+View all
+like button text should also change olour on hover
+ copy button maybe shouldnt be inside of box
+also make the border radius for it smaller
+dropdown-more padding for drowpdown icon
+sticky dropdown header or option to go back up
+
+
+general
+tooltip for each tab to let the user know whats up
+add underline for wech tab (maybe folder style)
+topleft icon should lead somewhere on click
+cosnider adding skelton ui
+
+tuto - drag and drop
+https://www.youtube.com/watch?v=dL5SOdgMbRY
+
+
+challnge i faced:
+onCLick events vs built i listenres
