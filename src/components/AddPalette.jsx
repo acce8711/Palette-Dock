@@ -24,7 +24,9 @@ import {
     restrictToWindowEdges
     } from '@dnd-kit/modifiers';
 
-const apiKey = import.meta.env.VITE_API_KEY;
+
+    import value from "../../netlify/functions/env";
+const apiKey = value;
 
 const openai = new OpenAI(
     {
