@@ -1,4 +1,4 @@
-import OpenAI from "openai";
+import OpenAI from "../../node_modules/openai";
 import AddColour from "./AddColour"
 import PendingColour from "./PendingColour";
 import ColourPicker from "./ColourPicker";
