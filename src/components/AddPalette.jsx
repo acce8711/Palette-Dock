@@ -24,10 +24,11 @@ import {
     restrictToWindowEdges
     } from '@dnd-kit/modifiers';
 
+const apiKey = import.meta.env.VITE_API_KEY;
 
 const openai = new OpenAI(
     {
-        apiKey: import.meta.env.VITE_API_KEY,
+        apiKey: apiKey,
         dangerouslyAllowBrowser: true
     }
 )
