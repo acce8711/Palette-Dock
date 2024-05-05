@@ -70,8 +70,6 @@ export default function AddPalette(props) {
         //let contentToAdd = {question: message,content: ""}
         const filtered = colours.filter(value => value.content!= "empty");
         const filteredString = filtered.map(value => value.content).join(", ")
-        console.log(filteredString)
-        console.log(filtered.length < 1? "generate a 2 word unique random colour palette name" : `generate one 2 word name to describe these colours: ${filteredString}`)
         const content = filtered.length < 1? "generate a 2 word unique random colour palette name" : `generate one 2 word name to describe these colours: ${filteredString}`;
         await openai.chat.completions.create(
             {
@@ -112,7 +110,6 @@ export default function AddPalette(props) {
 
     //closing colour picker
     const toggleColourPicker = (openPicker, newID = -1) => {
-        console.log("open pick")
         setPickerValues({toggle: openPicker, id: newID});
     }
 

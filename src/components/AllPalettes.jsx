@@ -147,7 +147,6 @@ export default function AllPalette(props) {
             (value1[1] - value2[1]) ** 2 +
             (value1[2] - value2[2]) ** 2 
         )
-        console.log(distance)
 
         return (distance < 40) 
     }
