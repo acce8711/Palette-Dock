@@ -259,7 +259,7 @@ export default function AddPalette(props) {
 
     return (
         <div className="column-flex max-width gap-md m-50">
-            <h2> have a palette in mind <br/> share it : )</h2>
+            <h2> have a palette in mind? <br/> share it : )</h2>
             <div className="spread-horizontal-flex black-stroke add-palette gap-md"> 
                 <DndContext modifiers={[restrictToHorizontalAxis]} collisionDetection={closestCorners}  onDragEnd={handleDragEnd} sensors={sensors}>    
                     <SortableContext items={colours} strategy={horizontalListSortingStrategy}>
