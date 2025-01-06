@@ -1,8 +1,3 @@
-# React + Vite
+# Palette Dock: A colour sharing web app for designers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I developed Palette Dock as a personal project to get more familiar with REST APIs. It's designed for designers to share and get inspired by other colour palettes. Users can quickly make colour palettes thanks to features such as drag and drop and AI generated palette names. They can also explore palettes created by others, vote for their favourites, sort them, filter by colour and randomize!
